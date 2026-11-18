@@ -1,0 +1,10 @@
+Django>=5.2.8,<7
+djangorestframework>=3.16
+django-cors-headers>=4.6
+channels>=4.2
+daphne>=4.1
+psycopg[binary]>=3.2.10
+Pillow>=11.3
+python-dotenv>=1.0
+# Opcional (produção / múltiplos processos): channel layer em Redis
+# channels-redis>=4.2
